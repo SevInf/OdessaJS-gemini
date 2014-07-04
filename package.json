@@ -1,0 +1,20 @@
+{
+  "name": "OdessaJS-gemini",
+  "version": "1.0.0",
+  "description": "Gemini demo for OdessaJS",
+  "main": "index.js",
+  "dependencies": {
+    "gemini": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gemini test"
+  },
+  "keywords": [
+    "demo",
+    "odessajs",
+    "gemini"
+  ],
+  "author": "Sergej Tatarincev <sevinf@yandex-team.ru> (https://github.com/SevInf)",
+  "license": "Public Domain"
+}
