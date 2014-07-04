@@ -4,11 +4,15 @@
   "description": "Gemini demo for OdessaJS",
   "main": "index.js",
   "dependencies": {
-    "gemini": "^0.4.2"
+    "gemini": "^0.4.2",
+    "http-server": "^0.6.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "gemini test"
+    "test": "gemini test",
+    "start": "http-server -p 8000 -s -c \"no-cache, no-store\" & echo $! > pidfile.pid",
+    "stop": "kill -2 $(cat pidfile.pid) && rm pidfile.pid"
+    
   },
   "keywords": [
     "demo",
