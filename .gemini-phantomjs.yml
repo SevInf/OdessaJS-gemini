@@ -1,0 +1,4 @@
+rootUrl: http://localhost:8000
+browsers:
+  phantom:
+    browserName: phantomjs
